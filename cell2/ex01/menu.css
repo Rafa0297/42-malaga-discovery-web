@@ -1,0 +1,49 @@
+ul {
+    display: none;
+}
+
+input:checked  ~ul {
+    display: block;
+} 
+
+input {
+    display: none;
+}
+
+label {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 2px solid rgb(76, 93, 208);
+    border-radius: 5px;
+    padding: 3px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+label:hover {
+    cursor: pointer;
+    border: 2px solid rgb(163, 0, 218);
+    color: rgb(163, 0, 218);
+}
+
+li {
+    display: block;
+    background: rgb(192, 218, 226);
+    border-bottom: 1px solid blue;
+    margin: 0;
+    padding: 2px;
+    width: 100px;
+    font-size: 20px;
+    
+}
+
+li:hover{
+    background: rgb(181, 233, 249);
+}
+
+a {
+    text-decoration: none;
+}
+

@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  .parallax-1 {
+    /* La imagen de fondo se queda fija */
+    background-image: url('./image1.jpeg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .parallax-2 {
+    /* La imagen de fondo se queda fija */
+    background-image: url('./image2.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  p {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    width: 500px;
+    line-height: 40px;
+  }
+
+  .contenido {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    font-size: 2em;
+    color: #333;
+  }
